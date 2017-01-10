@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/doberste8/shenanigans.git"
   },
   "keywords": [
     "draft",
@@ -17,9 +17,9 @@
   "author": "stephan dober",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/doberste8/no_captain_left_behind_initiative/issues"
+    "url": "https://github.com/doberste8/shenanigans/issues"
   },
-  "homepage": "https://github.com/doberste8/no_captain_left_behind_initiative#readme",
+  "homepage": "https://github.com/doberste8/shenanigans#readme",
   "dependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
