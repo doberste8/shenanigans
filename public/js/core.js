@@ -17,8 +17,8 @@ function mainController($scope, $http) {
         $scope.showNewItem();
       }
       else {
-        shuffle(data);
-        $http.put('/api/list', {
+       shuffle(data);
+       $http.put('/api/list', {
           "id": data[0].id,
           "count": 0
         });

@@ -5,7 +5,7 @@ var list = require('../models/list');
 
 // middleware for all api requests
 api.use(function(req, res, next) {
-  console.log('API:');
+  console.log('API');
   next();
 });
 
