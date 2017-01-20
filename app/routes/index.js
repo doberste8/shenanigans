@@ -4,7 +4,7 @@ var path = require('path');
 var router = require('express').Router();
 
 router.use(function(req, res, next) {
-  next();
+    next();
 });
 
 // server routes ============================================================
@@ -14,9 +14,9 @@ router.use('/api', api);
 // frontend routes ==========================================================
 // route to handle all angular requests
 router.get('*', function(req, res) {
-  res.sendFile('views/index.html', {
-    root: path.join(__dirname, '../../public')
-  });
+    res.sendFile('views/index.html', {
+        root: path.join(__dirname, '../../public')
+    });
 });
 
 module.exports = router;
